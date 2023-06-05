@@ -1,2 +1,2 @@
 # ReadingGroup
-weekly reading group
+weekly reading group; wednesday 12pm 
