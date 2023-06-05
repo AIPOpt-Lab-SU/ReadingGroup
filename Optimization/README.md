@@ -1,5 +1,5 @@
 
-#  Optimization focused papers
+#  Optimization Focused Papers
 
 
 # Learning to Solve Optimization Problems with Hard Linear Constraints [View](https://arxiv.org/abs/2208.10611)
