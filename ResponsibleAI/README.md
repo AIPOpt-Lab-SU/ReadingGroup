@@ -5,7 +5,7 @@
 
 
 
-# Differentially Private Latent Diffusion Models
+# Differentially Private Latent Diffusion Models [View](https://arxiv.org/abs/2305.15759)
 
 Diffusion models (DMs) are widely used for generating high-quality image datasets.
 However, since they operate directly in the high-dimensional pixel space, optimization of DMs is computationally expensive, requiring long training times. This
@@ -24,7 +24,7 @@ promising direction for training more powerful, yet training-efficient different
 private DMs that can produce high-quality synthetic images
 
 
-# Privacy Auditing with One (1) Training Run
+# Privacy Auditing with One (1) Training Run [View](https://arxiv.org/abs/2305.08846)
 
 We propose a scheme for auditing differentially private machine learning systems
 with a single training run. This exploits the parallelism of being able to add or remove
@@ -32,7 +32,7 @@ multiple training examples independently. We analyze this using the connection b
 privacy. Our auditing scheme requires minimal assumptions about the algorithm and
 can be applied in the black-box or white-box setting
 
-# Privacy Loss of Noisy Stochastic Gradient Descent Might Converge Even for Non-Convex Losses
+# Privacy Loss of Noisy Stochastic Gradient Descent Might Converge Even for Non-Convex Losses [View](https://arxiv.org/abs/2305.09903)
 
 The Noisy-SGD algorithm is widely used for privately training machine learning models. Traditional
 privacy analyses of this algorithm assume that the internal state is publicly revealed, resulting in privacy
@@ -47,7 +47,7 @@ requiring convexity or smoothness assumptions on the loss function. In addition,
 loss of regularized (unprojected) DP-SGD. To obtain these results, we directly analyze the hockey-stick
 divergence between coupled stochastic processes by relying on non-linear data processing inequalities.
 
-# Selective Pre-training for Private Fine-tuning
+# Selective Pre-training for Private Fine-tuning [View](https://arxiv.org/abs/2305.13865)
 
 Suppose we want to train text prediction models in email clients or word processors. The models must preserve the
 privacy of user data and adhere to a specific fixed size to meet memory and inference time requirements. We introduce
@@ -60,7 +60,7 @@ regimes where model sizes are relatively small. Besides performance improvements
 with careful pre-training and private fine-tuning, smaller models can match the performance of much larger models,
 highlighting the promise of differentially private training as a tool for model compression and efficiency
 
-# Personalized DP-SGD using Sampling Mechanisms
+# Personalized DP-SGD using Sampling Mechanisms [View](https://arxiv.org/abs/2305.15165)
 
 Personalized privacy becomes critical in deep learning for Trustworthy AI. While
 Differentially Private Stochastic Gradient Descent (DP-SGD) is widely used in
@@ -76,7 +76,7 @@ Experiments on real datasets show that our algorithm outperforms DP-SGD and
 simple combinations of DP-SGD with existing PDP mechanisms in terms of model
 performance and efficiency due to its embedded sampling mechanism.
 
-# Can Copyright be Reduced to Privacy?
+# Can Copyright be Reduced to Privacy? [View](https://arxiv.org/abs/2305.14822)
 There is an increasing concern that generative AI models may produce outputs that are
 remarkably similar to the copyrighted input content on which they are trained. This worry has
 escalated as the quality and complexity of generative models have immensely improved, and
@@ -90,7 +90,7 @@ privacy and copyright that should not be overlooked. In particular we highlight 
 algorithmic stability may be perceived as a practical tool to detect copying, it does not necessarily equate to copyright protection. Therefore, if it is adopted as standard for copyright
 infringement, it may undermine copyright law intended purposes.
 
-# Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models
+# Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models [View](https://arxiv.org/abs/2305.15594)
 
 Large language models (LLMs) are excellent in-context learners. However, the
 sensitivity of data contained in prompts raises privacy concerns. Our work first
@@ -111,7 +111,7 @@ of 92.7% on the sst2 dataset with (ε = 0.147, δ = 10−6
 95.2% for the non-private baseline. Through our experiments, we also show that
 our prompt-based approach is easily deployed with existing commercial APIs.
 
-# Learning with Impartiality to Walk on the Pareto Frontier of Fairness, Privacy, and Utility
+# Learning with Impartiality to Walk on the Pareto Frontier of Fairness, Privacy, and Utility [View](https://arxiv.org/abs/2302.09183)
 Deploying machine learning (ML) models often requires both fairness and privacy guarantees. Both of these objectives present unique
 trade-offs with the utility (e.g., accuracy) of the model. However, the mutual interactions between fairness, privacy, and utility are
 less well-understood. As a result, often only one objective is optimized, while the others are tuned as hyper-parameters. Because
@@ -122,7 +122,7 @@ ML frameworks for privacy-preserving learning, we provide two methods (FairDP-SG
 models and recover the Pareto frontier. Through theoretical privacy analysis and a comprehensive empirical study, we provide an
 answer to the question of where fairness mitigation should be integrated within a privacy-aware ML pipeline.
 
-# Differentially Private Attention Computation
+# Differentially Private Attention Computation [View](https://arxiv.org/abs/2305.04701)
 
 Large language models (LLMs) have had a profound impact on numerous aspects of daily
 life including natural language processing, content generation, research methodologies and so
@@ -142,9 +142,9 @@ attention matrix.
 From technique perspective, our result replies on a pioneering work in the area of differential
 privacy by [Alabi, Kothari, Tankala, Venkat and Zhang 2022].
 
-# FARA: Future-aware Ranking Algorithm for Fairness Optimization
+# FARA: Future-aware Ranking Algorithm for Fairness Optimization [View](https://arxiv.org/abs/2305.16637)
 Ranking systems are the key components of modern Information Retrieval (IR) applications, such as search engines and recommender systems. Besides the ranking relevance to users, the exposure fairness to item providers has also been considered an important factor in ranking optimization. M any fair ranking Algorithms have been proposed to jointly optimize both ranking relevance and fairness. However, we find that most existing fair ranking methods adopt greedy algorithms that only optimize rankings for the next immediate session or request. As shown in this paper, such a myopic paradigm could limit the upper bound of ranking optimization and lead to suboptimal performance in the long term. To this end, we propose FARA, a novel Future-Aware Ranking Algorithm for ranking relevance and fairness optimization.Instead of greedily optimizing rankings for the next immediate session, FARA plans ahead by jointly optimizing multiple ranklists together and saving them for future sessions. Particularly, FARA first uses the Taylor expansion to investigate how future ranklist s will influence the overall fairness of the system. Then , based on the analysis of the Taylor expansion, FARA adopts a two-phase optimization algorithm where we first solve an optimal future exposure planning problem and then construct the optimal ranklists according to the optimal future exposure planning. Theoretically, we show that FARA is optimal for ranking relevance and fairness joint optimization. Empirically, our extensive experiments on three semi-synthesized datasets show that FARA is efficient, effective,and can deliver significantly better ranking performance compared to state-of-the-art fair ranking methods.
 
 
-# Constitutional AI: Harmlessness from AI Feedback
+# Constitutional AI: Harmlessness from AI Feedback [View](https://arxiv.org/abs/2212.08073)
 As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.
