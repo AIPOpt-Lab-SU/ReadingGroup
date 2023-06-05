@@ -3,6 +3,7 @@
 
 
 # Learning to Solve Optimization Problems with Hard Linear Constraints
+This site was built using [GitHub Pages](https://pages.github.com/).
 
 Constrained optimization problems appear in a wide variety
 of challenging real-world problems, where constraints often
