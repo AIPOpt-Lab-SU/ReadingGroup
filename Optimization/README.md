@@ -39,7 +39,7 @@ theoretical findings and demonstrate superior performance in
 terms of computational time, optimality, and the feasibility of
 the solution compared to existing approaches
 
-# End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch
+# End-to-End Feasible Optimization Proxies for Large-Scale Economic Dispatch [View](https://arxiv.org/abs/2304.11726)
 
 The paper proposes a novel End-to-End Learning
 and Repair (E2ELR) architecture for training optimization
@@ -57,7 +57,7 @@ baselines by at least an order of magnitude.
 Index Terms—Economic Dispatch, Deep Learning, Optimization
 Proxies
 
-# End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization
+# End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization [View](https://arxiv.org/abs/2212.08260)
 First-order methods are widely used to solve convex quadratic programs (QPs) in
 real-time applications because of their low per-iteration cost. However, they can suffer
 from slow convergence to accurate solutions. In this paper, we present a framework
@@ -71,7 +71,7 @@ that improve with the number of training problems and number of iterations simul
 that, by learning good warm-starts, we are able to significantly reduce the number of
 iterations required to obtain high-quality solutions.
 
-# Fast, Differentiable and Sparse Top-k: a Convex Analysis Perspective
+# Fast, Differentiable and Sparse Top-k: a Convex Analysis Perspective [View](https://arxiv.org/abs/2302.01425)
 The top-k operator returns a k-sparse vector, where the non-zero values correspond to the k
 largest values of the input. Unfortunately, because it is a discontinuous function, it is difficult to
 incorporate in neural networks trained end-to-end with backpropagation. Recent works have
@@ -87,7 +87,7 @@ Dykstra algorithm to solve isotonic optimization problems. We successfully use o
 to prune weights in neural networks, to fine-tune vision transformers, and as a router in sparse
 mixture of experts.
 
-# Active Learning in the Predict-then-Optimize Framework: A Margin-Based Approach
+# Active Learning in the Predict-then-Optimize Framework: A Margin-Based Approach [View](https://arxiv.org/abs/2305.06584)
 
 We develop the first active learning method in the predict-then-optimize framework. Specifically, we develop a
 learning method that sequentially decides whether to request the “labels” of feature samples from an unlabeled
@@ -105,7 +105,7 @@ SPO loss, we derive a significantly smaller label complexity under separability 
 numerical evidence showing the practical value of our proposed algorithms in the settings of personalized
 pricing and the shortest path problem
 
-# DIFFERENTIATION OF BLACKBOX COMBINATORIAL SOLVERS
+# DIFFERENTIATION OF BLACKBOX COMBINATORIAL SOLVERS [View](https://arxiv.org/abs/1912.02175)
 Achieving fusion of deep learning with combinatorial algorithms promises transformative changes to artificial intelligence. One possible approach is to introduce
 combinatorial building blocks into neural networks. Such end-to-end architectures have the potential to tackle combinatorial problems on raw input data such
 as ensuring global consistency in multi-object tracking or route planning on maps
