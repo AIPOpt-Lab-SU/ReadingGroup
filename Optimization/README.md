@@ -2,8 +2,7 @@
 #  Optimization focused papers
 
 
-# Learning to Solve Optimization Problems with Hard Linear Constraints
-This site was built using [GitHub Pages](https://pages.github.com/).
+# Learning to Solve Optimization Problems with Hard Linear Constraints [View](https://arxiv.org/abs/2208.10611)
 
 Constrained optimization problems appear in a wide variety
 of challenging real-world problems, where constraints often
