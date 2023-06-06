@@ -159,6 +159,47 @@ Training reliable deep learning models which avoid making overconfident but inco
 # Unleashing the Power of Randomization in Auditing Differentially Private ML [View](https://arxiv.org/abs/2305.18447)
 We present a rigorous methodology for auditing differentially private machine learning algorithms by adding multiple carefully designed examples called canaries. We take a first principles approach based on three key components. First, we introduce Lifted Differential Privacy (LiDP) that expands the definition of differential privacy to handle randomized datasets. This gives us the freedom to design randomized canaries. Second, we audit LiDP by trying to distinguish between the model trained with K canaries versus K−1 canaries in the dataset, leaving one canary out. By drawing the canaries i.i.d., LiDP can leverage the symmetry in the design and reuse each privately trained model to run multiple statistical tests, one for each canary. Third, we introduce novel confidence intervals that take advantage of the multiple test statistics by adapting to the empirical higher-order correlations. Together, this new recipe demonstrates significant improvements in sample complexity, both theoretically and empirically, using synthetic and real data. Further, recent advances in designing stronger canaries can be readily incorporated into the new framework.
 
-# 
+# What Can We Learn from Unlearnable Datasets? [View](https://arxiv.org/pdf/2305.19254.pdf)
+In an era of widespread web scraping, unlearnable dataset methods have the potential to protect data privacy by preventing deep neural networks from generalizing.
+But in addition to a number of practical limitations that make their use unlikely,
+we make a number of findings that call into question their ability to safeguard data.
+First, it is widely believed that neural networks trained on unlearnable datasets
+only learn shortcuts, simpler rules that are not useful for generalization. In contrast,
+we find that networks actually can learn useful features that can be reweighed for
+high test performance, suggesting that image privacy is not preserved. Unlearnable
+datasets are also believed to induce learning shortcuts through linear separability
+of added perturbations. We provide a counterexample, demonstrating that linear
+separability of perturbations is not a necessary condition. To emphasize why linearly separable perturbations should not be relied upon, we propose an orthogonal
+projection attack which allows learning from unlearnable datasets published in
+ICML 2021 and ICLR 2023. Our proposed attack is significantly less complex
+than recently proposed techniques.
 
+# Tree-Ring Watermarks: Fingerprints for Diffusion Images that are Invisible and Robust [View](https://arxiv.org/pdf/2305.20030.pdf)
+Watermarking the outputs of generative models is a crucial technique for tracing
+copyright and preventing potential harm from AI-generated content. In this paper,
+we introduce a novel technique called Tree-Ring Watermarking that robustly fingerprints diffusion model outputs. Unlike existing methods that perform post-hoc
+modifications to images after sampling, Tree-Ring Watermarking subtly influences
+the entire sampling process, resulting in a model fingerprint that is invisible to
+humans. The watermark embeds a pattern into the initial noise vector used for
+sampling. These patterns are structured in Fourier space so that they are invariant to convolutions, crops, dilations, flips, and rotations. After image generation,
+the watermark signal is detected by inverting the diffusion process to retrieve the
+noise vector, which is then checked for the embedded signal. We demonstrate
+that this technique can be easily applied to arbitrary diffusion models, including text-conditioned Stable Diffusion, as a plug-in with negligible loss in FID.
+Our watermark is semantically hidden in the image space and is far more robust
+than watermarking alternatives that are currently deployed [Code](https://github.com/YuxinWenRick/tree-ring-watermark)
+
+# Training Private Models That Know What They Don’t Know [View](https://arxiv.org/pdf/2305.18393.pdf)
+Training reliable deep learning models which avoid making overconfident but incorrect predictions is
+a longstanding challenge. This challenge is further exacerbated when learning has to be differentially
+private: protection provided to sensitive data comes at the price of injecting additional randomness
+into the learning process. In this work, we conduct a thorough empirical investigation of selective
+classifiers—that can abstain when they are unsure—under a differential privacy constraint. We find
+that several popular selective prediction approaches are ineffective in a differentially private setting as
+they increase the risk of privacy leakage. At the same time, we identify that a recent approach that
+only uses checkpoints produced by an off-the-shelf private learning algorithm stands out as particularly
+suitable under DP. Further, we show that differential privacy does not just harm utility but also
+degrades selective classification performance. To analyze this effect across privacy levels, we propose
+a novel evaluation mechanism which isolate selective prediction performance across model utility
+levels. Our experimental results show that recovering the performance level attainable by non-private
+models is possible but comes at a considerable coverage cost as the privacy budget decreases.
 
