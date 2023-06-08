@@ -1,8 +1,8 @@
 # Privacy & fairness related papers
-- [Generative Models/Large Language Models](generative-models)
-- [Privacy and Fairness](privacy-and-fairness)
-- [Auditing](auditing)
-- [Others](others) 
+- [Generative Models/Large Language Models](#generative-models)
+- [Privacy and Fairness](#privacy-and-fairness)
+- [Auditing](#auditing)
+- [Others](#others) 
 
 ## Generative Models
 
