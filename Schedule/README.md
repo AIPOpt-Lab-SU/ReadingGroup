@@ -5,7 +5,7 @@
 |     |    Cuong   |             |
 |     |  Jacob        |             Learning to Solve Optimization Problems with Hard Linear Constraints |
 |     |     My          |             |
-|      |  Yehya       |         Bounding and Counting Linear Regions of Deep Neural Networks          |
+|      |  Yehya       |               |
 | ---- | ------------------------------- | ------------------------------- |
 | 2    |      Vincenzo  |  |
 |     |    Cuong   |             |
